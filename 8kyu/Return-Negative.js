@@ -5,8 +5,10 @@
 
 function makeNegative(num) {
     if (num > 0) {
-        console.log(-num)
+        num === -num
     } else {
-        console.log(num)
+        num === num
     }
 }
+
+makeNegative(5)
